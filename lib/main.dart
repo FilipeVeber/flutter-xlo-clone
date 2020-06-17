@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'file:///C:/Users/supero/Documents/Projects/flutter/udemy/Ciolfi/flutter_xlo_clone/lib/screens/base_screen/base_screen.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -10,7 +12,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: BaseScreen(),
     );
   }
 }
